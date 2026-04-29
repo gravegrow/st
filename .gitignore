@@ -1,5 +1,7 @@
 /st
-/st.o
-/x.o
 /config.h
 /patches
+
+*.o
+*.orig
+*.rej
