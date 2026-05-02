@@ -5,12 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Berkeley Mono:pixelsize=24:antialias=true:autohint=true";
+static char *font = "Berkeley Mono:pixelsize=26:antialias=true:autohint=true";
 static char *font2[] = {
-	"JetBrainsMono Nerd Font Mono:pixelsize=24:antialias=true:autohint=true",
+	"JetBrainsMono Nerd Font Mono:pixelsize=26:antialias=true:autohint=true",
 };
 
-static int borderpx = 12;
+static int borderpx = 13;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -69,7 +69,7 @@ static unsigned int blinktimeout = 800;
 /*
  * thickness of underline and bar cursors
  */
-static unsigned int cursorthickness = 2;
+static unsigned int cursorthickness = 1;
 
 /*
  * 1: render most of the lines/blocks characters without using the font for
@@ -119,7 +119,7 @@ static const char *colorname[] = {
 	"#627691",
 	"#be8c8c",
 	"#8EA4A2",
-	"#90847f",
+	"#696563",
 
 	/* 8 bright colors */
 	"#272830",
